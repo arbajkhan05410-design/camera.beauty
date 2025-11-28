@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: #111;
+  font-family: Arial;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  width: 400px;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+button {
+  padding: 10px 16px;
+  background: #ff4081;
+  border: none;
+  color: white;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+select {
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+}
